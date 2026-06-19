@@ -1,6 +1,5 @@
 "use server";
 
-import ContactFormEmail from "@/components/email/ContactFormEmail";
 import { Resend } from "resend";
 import { z } from "zod";
 import { ContactFormSchema } from "./schemas";
@@ -24,16 +23,15 @@ export async function sendEmail(data: ContactFormInputs) {
       replyTo: [email],
       subject: `New message from ${name}!`,
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
-      // react: ContactFormEmail({ name, email, message }),
     });
 
     if (!data || error) {
       console.error(error?.message);
-      throw new Error("Failed to send email!");
+      return { error: "Failed to send email. Please try again." };
     }
 
     return { success: true };
   } catch (error) {
-    return { error };
+    return { error: "Failed to send email. Please try again." };
   }
 }
