@@ -33,7 +33,10 @@
         "REST APIs",
         "Vite"
       ],
-      "links": []
+      "links": [{
+        "name": "Car Wash Management Platform",
+        "href": "https://carwash-management-2u4z.vercel.app/login"  ,
+        "icon": "globe"   }]
     },
     {
       "name": "AI Hydroponics System",
