@@ -51,7 +51,7 @@
     {
       "name": "AI Drug Discovery Research",
       "description": "Bioinformatics R&D contribution at UL Research focused on AI-driven drug discovery. Collaborated on multi-modal architectures to improve prediction reliability for healthcare applications.",
-      "image": "/img/drug-discovery.png",
+      "image": "/img/drugdiscovery.png",
       "tags": [
         "Python",
         "PyTorch",
