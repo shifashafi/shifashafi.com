@@ -1,78 +1,64 @@
 {
   "career": [
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "logo": "/img/dbs.png",
+      "name": "StackMind",
+      "href": "#",
+      "logo": "/img/stackmind.png",
       "positions": [
         {
-          "title": "Associate",
-          "start": "Jul 2025",
+          "title": "Full-Stack AI Engineer",
+          "start": "Sept 2025",
           "description": [
-            "Building Java, Spring Boot, and Activiti services for current and savings account servicing business processes; raised JUnit coverage above 80% and led a team knowledge base project."
-          ]
-        },
-        {
-          "title": "Graduate Associate (SEED Programme)",
-          "start": "Jul 2023",
-          "end": "Jun 2025",
-          "description": [
-            "Built a Python and SQL automation tool to migrate and configure over 1,000 configuration variants of a process-tracking workflow from a vendor platform into an in-house Spring Boot and Activiti application (MariaDB), reducing per-configuration setup from 1-2 hours to under 5 minutes.",
-            "Developed backend services in Java, Spring Boot, and Activiti and collaborated across teams on end-to-end delivery."
+            "Spearheading development of full-stack web applications with advanced AI integrations, managing end-to-end project lifecycle from requirement gathering to cloud deployment.",
+            "Architecting secure backends with JWT authentication, React frontends, and optimized PostgreSQL databases for complex AI data flows."
           ]
         }
       ]
     },
     {
-      "name": "Singapore Institute of Technology",
-      "href": "https://www.singaporetech.edu.sg",
-      "logo": "/img/sit.png",
+      "name": "Cognizant Technology Solutions",
+      "href": "https://www.cognizant.com",
+      "logo": "/img/cognizant.png",
       "positions": [
         {
-          "title": "Software Developer (Contract)",
-          "start": "Apr 2023",
-          "end": "Jun 2023",
+          "title": "Programmer Analyst Trainee",
+          "start": "May 2025",
+          "end": "Jul 2025",
           "description": [
-            "Built NFTVue, a NFT gallery website that allows students to connect their crypto wallets to view and verify their school event-issued NFTs",
-            "Worked on DemoConstruct, a full-stack web application (React + Python) that uses Meshroom to reconstruct 3D models from captured images"
-          ],
-          "links": [
-            {
-              "name": "NFTVue",
-              "href": "https://nftvue.vercel.app",
-              "icon": "globe"
-            }
+            "Completed intensive training in ASP.NET Core Web API and enterprise-level software development.",
+            "Applied .NET stack principles to internal projects within large-scale, service-oriented architectures."
           ]
         }
       ]
     },
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "logo": "/img/dbs.png",
+      "name": "UL Research (ULCCS Group)",
+      "href": "#",
+      "logo": "/img/ulresearch.png",
       "positions": [
         {
-          "title": "Software Developer (Intern)",
-          "start": "May 2022",
-          "end": "Dec 2022",
+          "title": "AI Research Intern",
+          "start": "Jun 2024",
+          "end": "Oct 2024",
           "description": [
-            "Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java",
-            "Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular"
+            "Contributed to Bioinformatics R&D focused on AI-driven drug discovery.",
+            "Collaborated on multi-modal architectures to improve prediction reliability for healthcare applications."
           ]
         }
       ]
     },
     {
-      "name": "Activate Interactive Pte Ltd",
-      "href": "https://www.activate.sg",
-      "logo": "/img/activate.png",
+      "name": "The VeganHut",
+      "href": "#",
+      "logo": "/img/veganhut.png",
       "positions": [
         {
-          "title": "Software Developer (Intern)",
-          "start": "May 2019",
-          "end": "Aug 2019",
+          "title": "AI Intern",
+          "start": "Nov 2023",
+          "end": "Apr 2025",
           "description": [
-            "Developed RP Connect, the iOS and Android mobile app for Republic Polytechnic using React Native"
+            "Developed an AI-driven prototype for automated hydroponics using real-time sensor data for a Netherlands-based client.",
+            "Built a deep learning model to predict nutrient uptake values, bridging hardware sensors with predictive software analysis."
           ]
         }
       ]

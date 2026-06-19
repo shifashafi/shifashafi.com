@@ -10,12 +10,10 @@ export default function NotFound() {
             <p className="title text-muted-foreground">404</p>
             <div className="sm:ml-6">
               <div className="sm:border-l sm:border-gray-200 sm:pl-6">
-                <h1 className="title sm:text-5xl">
-                  cannot find <i>leh</i>...
-                </h1>
+                <h1 className="title sm:text-5xl">page not found.</h1>
                 <p className="mt-1 text-base text-muted-foreground">
-                  Maybe I renamed or deleted the page <i>liao</i>. Try again{" "}
-                  <i>lor</i>.
+                  This page may have been moved or doesn&apos;t exist. Let&apos;s
+                  get you back on track.
                 </p>
               </div>
               <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">

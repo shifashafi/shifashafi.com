@@ -1,130 +1,65 @@
 {
   "projects": [
     {
-      "name": "TT4D",
-      "description": "Generate winning combinations, view past results, and analyze lottery trends all in one place",
-      "image": "/img/tt4d.png",
+      "name": "License Plate Detection System",
+      "description": "High-accuracy Computer Vision system for license plate detection and vehicle occupancy monitoring, built in collaboration with Kerala Police Control. Achieved 92.79% accuracy with adversarial attack mitigation and environmental noise handling.",
+      "image": "/img/licenseplate.png",
       "tags": [
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "NextJS",
+        "YOLO",
+        "OCR",
+        "OpenCV",
+        "Deep Learning",
+        "TensorFlow"
+      ],
+      "links": [
+        {
+          "name": "IEEE Paper",
+          "href": "https://ieeexplore.ieee.org/document/11135734",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Car Wash Management Platform",
+      "description": "Comprehensive workshop management platform with admin dashboard for task verification, staff tracking, and automated report generation. Integrated real-time availability and task management into a unified web interface.",
+      "image": "/img/carwash.png",
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express.js",
         "PostgreSQL",
-        "TailwindCSS",
-        "BS4"
+        "JWT",
+        "REST APIs",
+        "Vite"
       ],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://huatnumbers.com",
-          "icon": "globe"
-        },
-        {
-          "name": "Source",
-          "href": "https://github.com/tedawf/tt4d",
-          "icon": "github"
-        },
-        {
-          "name": "Source (UI)",
-          "href": "https://github.com/tedawf/tt4d-web",
-          "icon": "github"
-        }
-      ]
+      "links": []
     },
     {
-      "name": "Tradingview Telegram Alerts",
-      "description": "Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes",
-      "image": "/img/tv-tele-alerts.png",
+      "name": "AI Hydroponics System",
+      "description": "AI-driven prototype for automated hydroponics using real-time sensor data, built for a Netherlands-based client. Deep learning model predicts nutrient uptake values by bridging hardware sensors with predictive software analysis.",
+      "image": "/img/hydroponics.png",
       "tags": [
         "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "TensorFlow",
+        "Deep Learning",
+        "IoT",
+        "Sensor Data"
       ],
-      "links": [
-        {
-          "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
-          "icon": "github"
-        }
-      ]
+      "links": []
     },
     {
-      "name": "NFTVue",
-      "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://nftvue.vercel.app",
-      "image": "/img/nftvue.png",
+      "name": "AI Drug Discovery Research",
+      "description": "Bioinformatics R&D contribution at UL Research focused on AI-driven drug discovery. Collaborated on multi-modal architectures to improve prediction reliability for healthcare applications.",
+      "image": "/img/drug-discovery.png",
       "tags": [
-        "NextJS",
-        "TailwindCSS",
-        "MetaMask",
-        "WalletConnect",
-        "Web3",
-        "NFTScan",
-        "HashKey DID"
+        "Python",
+        "PyTorch",
+        "Bioinformatics",
+        "Multi-modal ML",
+        "Healthcare AI"
       ],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "name": "Portfolio 2023 (Outdated)",
-      "description": "Simple markdown portfolio made with Astro 🚀",
-      "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/img/old-portfolio.png",
-      "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
-          "icon": "globe"
-        },
-        {
-          "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
-          "icon": "github"
-        }
-      ]
-    },
-    {
-      "name": "Rapid Ride Fight (Final Year)",
-      "description": "3D capture-the-flag, multiplayer boat fighting, with smart AI and water graphics",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
-      "image": "/img/rrf.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "3D"],
-      "links": [
-        {
-          "name": "Gameplay",
-          "href": "https://www.youtube.com/watch?v=bge3fiypg5U",
-          "icon": "youtube"
-        },
-        {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=PNAO-aI1Daw",
-          "icon": "youtube"
-        }
-      ]
-    },
-    {
-      "name": "Glowing Under (2nd Year)",
-      "description": "2D platformer with a focus on puzzle-solving, no-death exploration and storytelling",
-      "href": "https://games.digipen.edu/games/glowing-under",
-      "image": "/img/gu.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "2D"],
-      "links": [
-        {
-          "name": "Trailer",
-          "href": "https://www.youtube.com/watch?v=u6RYwBZlSfg",
-          "icon": "youtube"
-        }
-      ]
+      "links": []
     }
   ]
 }

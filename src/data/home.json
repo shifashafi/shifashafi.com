@@ -1,16 +1,16 @@
 {
   "introduction": {
-    "greeting": "hi ted here. 👋",
-    "description": "Backend by profession, full-stack by passion. I build and self-host the lot.",
-    "chatPrompt": "For Q&A, start a chat with Ted Support",
+    "greeting": "hi shifa here. 👋",
+    "description": "M.Tech CS grad & batch topper from Kerala 🇮🇳, now building AI products, Full-stack by skill, AI by passion.",
+    "chatPrompt": "For Q&A, start a chat with Shifa Support",
     "escalation": {
       "text": "For any escalations, please find my",
-      "linkText": "Ted Lead",
+      "linkText": "LinkedIn",
       "suffix": "instead."
     }
   },
   "escalationLink": {
-    "href": "https://www.instagram.com/gomugomu.cat",
-    "title": "meow"
+    "href": "https://www.linkedin.com/in/shifa-shafi/",
+    "title": "Let's connect"
   }
 }

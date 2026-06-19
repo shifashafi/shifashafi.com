@@ -1,35 +1,32 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
-import PostsSkeleton from "@/components/PostsSkeleton";
+// import Posts from "@/components/Posts";
+// import PostsSkeleton from "@/components/PostsSkeleton";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import SwipeCards from "@/components/SwipeCards";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
+// import { getPosts } from "@/lib/posts";
 import {
-  ArrowDown,
-  ArrowDownRight,
   ArrowRightIcon,
   FileDown,
 } from "lucide-react";
 import Link from "next/link";
-import { Suspense } from "react";
 
 import homeContent from "@/data/home.json";
 
-const TED_BIRTH_YEAR = 1997;
+const SHIFA_BIRTH_YEAR = 2001; // update to your actual birth year
 const LIMIT = 2; // max show 2
 
-async function RecentPosts() {
-  const posts = (await getPosts())
-    .filter((post) => !post.draft)
-    .slice(0, LIMIT);
-  return <Posts posts={posts} />;
-}
+// async function RecentPosts() {
+//   const posts = (await getPosts())
+//     .filter((post) => !post.draft)
+//     .slice(0, LIMIT);
+//   return <Posts posts={posts} />;
+// }
 
 export default function Home() {
-  const currentAge = new Date().getFullYear() - TED_BIRTH_YEAR;
+  const currentAge = new Date().getFullYear() - SHIFA_BIRTH_YEAR;
 
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
@@ -42,20 +39,12 @@ export default function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {currentAge}yo software engineer from Singapore 🇸🇬
+            {currentAge}yo full-stack AI engineer from India
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
             {homeContent.introduction.description}
           </p>
-
-          <div className="mt-6 flex items-center gap-1">
-            <p className="text-balance text-sm font-semibold sm:text-base">
-              {homeContent.introduction.chatPrompt}
-            </p>
-            <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
-            <ArrowDown className="block size-5 animate-bounce sm:hidden" />
-          </div>
 
           <p className="mt-1 text-xs font-light">
             {homeContent.introduction.escalation.text}&nbsp;
@@ -96,21 +85,6 @@ export default function Home() {
           />
         </div>
         <Projects limit={LIMIT} />
-      </section>
-
-      <section className="flex flex-col gap-8">
-        <div className="flex justify-between">
-          <h2 className="title text-3xl">recent posts</h2>
-          <LinkWithIcon
-            href="/blog"
-            position="right"
-            icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
-          />
-        </div>
-        <Suspense fallback={<PostsSkeleton rows={LIMIT} />}>
-          <RecentPosts />
-        </Suspense>
       </section>
     </article>
   );

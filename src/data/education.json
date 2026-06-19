@@ -1,50 +1,37 @@
 {
   "education": [
     {
-      "name": "Digipen Institute of Technology Singapore",
-      "href": "https://www.digipen.edu.sg",
-      "logo": "/img/digipen.png",
+      "name": "Government Engineering College Thrissur",
+      "href": "https://gect.ac.in",
+      "logo": "/img/gec-thrissur.png",
       "positions": [
         {
-          "title": "BS in Computer Science in Real-Time Interactive Simulation",
-          "start": "Sep 2019",
-          "end": "Apr 2023",
+          "title": "M.Tech in Computer Science and Engineering",
+          "start": "Sep 2023",
+          "end": "Jun 2025",
           "description": [
-            "Graduated with a Minor in Mathematics",
-            "President of Digipen Student Management Committee for freshman year",
-            "3-time recipient of the Dean's Honor List"
-          ],
-          "links": [
-            {
-              "name": "Final Year Project",
-              "href": "https://games.digipen.edu/games/rapid-ride-fight",
-              "icon": "globe"
-            },
-            {
-              "name": "2nd Year Project",
-              "href": "https://games.digipen.edu/games/glowing-under",
-              "icon": "globe"
-            }
+            "Batch Topper — GPA: 3.73/4",
+            "NBA Accredited program",
+            "Related Coursework: Machine Learning, DBMS, Data Structures, Computer Networks"
           ]
         }
       ]
     },
     {
-      "name": "Singapore Polytechnic",
-      "href": "https://www.sp.edu.sg",
-      "logo": "/img/sp.png",
+      "name": "Government Engineering College Palakkad",
+      "href": "https://gecpalakkad.ac.in",
+      "logo": "/img/gec-palakkad.png",
       "positions": [
         {
-          "title": "Diploma in Games Design and Development",
-          "start": "Apr 2014",
-          "end": "May 2017",
-          "links": [
-            {
-              "name": "Final Year Project",
-              "href": "https://tedawf.github.io/portfolio-2019/phase.html",
-              "icon": "globe"
-            }
-          ]
+          "title": "B.Tech in Electronics and Communication Engineering",
+          "start": "Aug 2019",
+          "end": "Jun 2023",
+          "description": [
+            "GPA: 3.19/4",
+            "NBA Accredited program",
+            "Related Coursework: Digital System Design, Microwave & Antenna, Machine Learning, Control Systems"
+          ],
+          "links": []
         }
       ]
     }

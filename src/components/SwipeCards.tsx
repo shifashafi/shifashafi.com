@@ -117,7 +117,7 @@ const Card = ({
       {isFront ? (
         <ImageWithSkeleton
           src={url}
-          alt="Photo of Ted"
+          alt="Photo of Shifa"
           width={175}
           height={233}
           sizes="175px"
@@ -154,21 +154,20 @@ type Card = {
   url: string;
 };
 
+// IMPORTANT: every path here must exist in /public/img/ or the card will be
+// blank/broken. Only 3 photos were prepared, so only 3 are listed below.
+// If you add a 4th photo, drop it in /public/img/ and add a new entry here.
 const cardData: Card[] = [
   {
     id: 1,
-    url: "/img/ted-2018.jpg",
-  },
-  {
-    id: 2,
     url: "/img/ted-2021.jpg",
   },
   {
-    id: 3,
+    id: 2,
     url: "/img/ted-2024.jpg",
   },
   {
-    id: 4,
+    id: 3,
     url: "/img/ted-2025.jpg",
   },
 ];
