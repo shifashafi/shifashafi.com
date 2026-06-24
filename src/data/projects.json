@@ -35,7 +35,7 @@
       ],
       "links": [{
         "name": "Car Wash Management Platform",
-        "href": "https://carwash-management-2u4z.vercel.app/login"  ,
+        "href": "https://carwash-management-2u4z.vercel.app"  ,
         "icon": "globe"   }]
     },
     {
@@ -63,6 +63,23 @@
         "Healthcare AI"
       ],
       "links": []
-    }
+    },
+   {
+  "name": "TrackHire — AI Job Application Tracker",
+  "description": "Full-stack AI-powered job tracker built with Next.js and Supabase. Paste any job description to get instant skill extraction, a tailored cover letter, and a resume fit score — all powered by Llama 3 via OpenRouter. Features per-user auth and a live dashboard.",
+  "image": "/img/trackhire.png",
+  "tags": [
+    "Next.js",
+    "Supabase",
+    "OpenRouter",
+    "Llama 3",
+    "Tailwind CSS",
+    "REST API"
+  ],
+  "links": [
+    { "label": "Live", "url": "ai-job-tracker-five.vercel.app" },
+    { "label": "GitHub", "url": "https://github.com/shifashafi/ai-job-tracker" }
+  ]
+}
   ]
 }
