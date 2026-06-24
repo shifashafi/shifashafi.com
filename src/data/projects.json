@@ -71,7 +71,7 @@
   "tags": ["Next.js", "Supabase", "OpenRouter", "Llama 3", "Tailwind CSS"],
   "links": [
     { "name": "Live",
-     "href": "ai-job-tracker-five.vercel.app",
+     "href": "https://ai-job-tracker-five.vercel.app",
       "icon": "globe" }
   ]
 }
